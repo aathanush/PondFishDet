@@ -67,29 +67,18 @@ def SSR(img, variance):
     img_retinex = np.uint8(img_retinex)
     return img_retinex
 
-
-variance_list = [30, 80, 15]
-variance = 500
-
-
-# img_ssr = SSR(img, variance)
-#
-# cv2.imshow('Original', img)
-# cv2.imshow('MSR', img_msr)
-# cv2.imshow('SSR', img_ssr)
-# cv2.imwrite('SSR.jpg', img_ssr)
-
-path="D:\\hello\\books\\python\\MiniProject\\dataset\\yolov5\\DePondFI'23\\DePondFI'23\\train\\images - Copy"
-l=os.listdir(path)
-l.remove('MSR.py')
-count=0
-print("Starting the loop")
-for i in l:
-    img = cv2.imread(path+'\\'+i)
-    img_msr = MSR(img, variance_list)
-    cv2.imwrite(i, img_msr)
-    count+=1
-    if (count//len(l)*100)%10==0:
-        print((count//len(l)*100), "% complete")
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+def MSR_algorithm(path,):
+    variance_list = [30, 80, 15]
+    count=0
+    print("Starting Image Enhancement using MSR")
+    l=os.listdir(path)
+    print(l)
+    for i in l:
+        img = cv2.imread(path+i)
+        img_msr = MSR(img, variance_list)
+        cv2.imwrite('./results/'+i, img_msr)
+        count+=1
+        if (count/len(l)*100)%10==0:
+            print(count/len(l)*100, "% complete")
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
