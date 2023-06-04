@@ -41,6 +41,7 @@ for i in images:
 
         s='0 '
         plot=box.xyxyn
+        plot=plot.tolist()[0]
         for j in plot:
             s=s+str(j)+' '
         s+='\n'

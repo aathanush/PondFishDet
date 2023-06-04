@@ -2,10 +2,11 @@ import os
 import numpy as np
 import cv2
 
-def CLAHE_algorithm(path,dest):
-
+def CLAHE_algorithm(path):
+    from img_enhancements.CLAHE.sceneRadianceCLAHE import RecoverCLAHE
+    dest='./results/'
     np.seterr(over='ignore')
-    print("CLAHE Image Enhncement algorithm loaded")
+    print("CLAHE Image Enhancement algorithm loaded")
     l=os.listdir(path)
     print(l)
     count=0
