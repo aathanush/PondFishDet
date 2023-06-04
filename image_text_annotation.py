@@ -27,9 +27,9 @@ if directory[-1]!='/':
     directory+='/'
 result='./img_enhancements/'+choice+'/results/'
 if choice=='CLAHE':
-    CLAHE_algorithm(directory)
+    CLAHE_algorithm(directory,'./results/')
 else:
-    MSR_algorithm(directory)
+    MSR_algorithm(directory,'./results/')
 
 images=os.listdir('./results/')
 for i in images:

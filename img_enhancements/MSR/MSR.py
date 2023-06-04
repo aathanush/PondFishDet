@@ -67,7 +67,7 @@ def SSR(img, variance):
     img_retinex = np.uint8(img_retinex)
     return img_retinex
 
-def MSR_algorithm(path,):
+def MSR_algorithm(path,dest):
     variance_list = [30, 80, 15]
     count=0
     print("Starting Image Enhancement using MSR")
@@ -76,7 +76,7 @@ def MSR_algorithm(path,):
     for i in l:
         img = cv2.imread(path+i)
         img_msr = MSR(img, variance_list)
-        cv2.imwrite('./results/'+i, img_msr)
+        cv2.imwrite(dest+i, img_msr)
         count+=1
         if (count/len(l)*100)%10==0:
             print(count/len(l)*100, "% complete")
