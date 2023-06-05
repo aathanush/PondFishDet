@@ -25,8 +25,8 @@ print("Model loaded")
 directory=input('Paste the path to the directory containing the images (use / instead of \\ )')
 if directory[-1]!='/':
     directory+='/'
-result='./img_enhancements/'+choice+'/results/'
-if choice=='CLAHE':
+
+if choice.upper()=='CLAHE':
     CLAHE_algorithm(directory,'./results/')
 else:
     MSR_algorithm(directory,'./results/')

@@ -4,7 +4,7 @@ import sys
 from img_enhancements.CLAHE.CLAHE import CLAHE_algorithm
 from img_enhancements.CLAHE.sceneRadianceCLAHE import RecoverCLAHE
 from img_enhancements.MSR.MSR import MSR_algorithm
-
+import time
 import natsort
 import xlwt
 from skimage import exposure
@@ -25,13 +25,17 @@ print("Model loaded")
 
 path = input('Paste the path to the directory containing images(s) (use / instead of \\ )')
 
-if choice=='CLAHE':
+if choice.upper()=='CLAHE':
     CLAHE_algorithm(path,'./detections/')
 else:
     MSR_algorithm(path,'./detections/')
 
+now=time.time()
 images=os.listdir('./detections/')
 for i in images:
     model.predict('./detections/'+i,save=True)
+after = time.time()
 for i in os.listdir('./detections/'):
     os.remove(f"./detections/{i}")
+print(1000*(after-now))
+
