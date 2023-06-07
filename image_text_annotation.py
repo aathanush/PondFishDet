@@ -8,6 +8,9 @@ from img_enhancements.MSR.MSR import MSR_algorithm
 import natsort
 import xlwt
 from skimage import exposure
+k=os.listdir('./results/')
+for i in k:
+    os.remove('./results/'+i)
 
 choice=''
 choice=input('Which Image enhancement algorithm would you like to choose? ( MSR / CLAHE )')
@@ -26,6 +29,7 @@ directory=input('Paste the path to the directory containing the images (use / in
 if directory[-1]!='/':
     directory+='/'
 
+print(f"Starting Image Processing using {choice}")
 if choice.upper()=='CLAHE':
     CLAHE_algorithm(directory,'./results/')
 else:
@@ -33,6 +37,9 @@ else:
 
 images=os.listdir('./results/')
 for i in images:
+    print('image name is'+i)
+    if i==0:
+        break
     res=model('./results/'+i)
     boxes=res[0].boxes
     annotations=[]

@@ -9,6 +9,10 @@ import natsort
 import xlwt
 from skimage import exposure
 
+k=os.listdir('./detections/')
+for i in k:
+    os.remove('./detections/'+i)
+
 choice=''
 choice=input('Which Image enhancement algorithm would you like to choose? ( MSR / CLAHE )')
 if choice.upper()=='CLAHE':
@@ -60,11 +64,15 @@ def FrameCapture(path,dest):
 
 FrameCapture(path,'./detections/')
 
+print(f"Performing {choice} image processing")
 if choice.upper()=='CLAHE':
     CLAHE_algorithm('./detections/','./detections/')
 else:
     MSR_algorithm('./detections/','./detections/')
 
+print("Converting frames to video file...")
 generate_video('./detections/','./detections/test_video.avi')
 
+print("Performing detection...")
 model.predict('./detections/test_video.avi',save=True)
+os.remove('./detections/test_video.avi')

@@ -70,17 +70,13 @@ def SSR(img, variance):
 def MSR_algorithm(path,dest):
     variance_list = [30, 80, 15]
     count=0
-    print("Starting Image Enhancement using MSR")
     l=os.listdir(path)
-    print(l)
     for i in l:
         img = cv2.imread(path+i)
-        now=time.time()
         img_msr = MSR(img, variance_list)
-        print((time.time()-now))
         cv2.imwrite(dest+i, img_msr)
         count+=1
-        if (count/len(l)*100)%10==0:
+        if round(count/len(l)*100)%10==0:
             print(count/len(l)*100, "% complete")
     cv2.waitKey(0)
     cv2.destroyAllWindows()
