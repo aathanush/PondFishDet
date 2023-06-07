@@ -75,7 +75,9 @@ def MSR_algorithm(path,dest):
     print(l)
     for i in l:
         img = cv2.imread(path+i)
+        now=time.time()
         img_msr = MSR(img, variance_list)
+        print((time.time()-now))
         cv2.imwrite(dest+i, img_msr)
         count+=1
         if (count/len(l)*100)%10==0:
