@@ -1,0 +1,9 @@
+path: # dataset root dir
+train: D:/hello/books/python/MiniProject/dataset/yolov5/DePondFI23/CLAHE_dataset/train/images/  
+val: D:/hello/books/python/MiniProject/dataset/yolov5/DePondFI23/CLAHE_dataset/valid/images/ 
+test: D:/hello/books/python/MiniProject/dataset/yolov5/DePondFI23/DePondFI23/test/images/  
+
+# number of classes
+nc: 1
+# class names
+names: ["fish"]

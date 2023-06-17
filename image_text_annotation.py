@@ -37,7 +37,6 @@ else:
 
 images=os.listdir('./results/')
 for i in images:
-    print('image name is'+i)
     if i==0:
         break
     res=model('./results/'+i)
