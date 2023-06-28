@@ -2,11 +2,11 @@
 
 ## Abstract
 
-## Proposed methodology
+## Instructions
 
-## Training results of the object detection model
+## Proposed Methodology
 
-## Instructions to use the repository code files
+## Training Results 
 
 ## References
 
