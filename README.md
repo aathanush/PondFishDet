@@ -54,11 +54,11 @@ pip pip install -r requirements.txt
 
 ## Citation
 ```
-@article{zhao2022particlesfm,
-      author    = {Xinjie Li, Guojia Hou, Kunqian Li, Zhenkuan Pan,},
-      title     = {Enhancing underwater image via adaptive color and contrast enhancement, and denoising},
-      booktitle = {Engineering Applications of Artificial Intelligence, Volume 111},
-      year      = {2022}
-  }
+@article{LI2022104759,
+author = {Xinjie Li and Guojia Hou and Kunqian Li and Zhenkuan Pan},
+title = {Enhancing underwater image via adaptive color and contrast enhancement, and denoising},
+journal = {Engineering Applications of Artificial Intelligence},
+doi = {https://doi.org/10.1016/j.engappai.2022.104759},
+}
 ```
 
