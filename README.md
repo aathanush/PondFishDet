@@ -31,9 +31,9 @@ pip pip install -r requirements.txt
 </p>
 
 ## Training Results 
-<p align="left" float="middle">
-<img src="pics/F1_curve.png?raw=true" width="52.5%" />
-<img src="pics/PR_curve.png?raw=true" width="52.5%" />
+<p align="center">
+  <img src="pics/F1_curve.png?raw=true" width="48%" />
+  <img src="pics/PR_curve.png?raw=true" width="48%" />
 </p>
 
 ## Table
