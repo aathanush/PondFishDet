@@ -5,7 +5,7 @@ In the current era, aquaculture plays a pivotal role in our nation's economy. Ho
 
 <em>CLAHE Algorithm:</em>
 <p align="center" float="middle">
-<img src="pics/CLAHE.png?raw=true" width="61.5%" />
+<img src="pics/clache.png?raw=true" width="61.5%" />
 </p>
 
 
