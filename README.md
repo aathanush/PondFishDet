@@ -31,18 +31,25 @@ pip pip install -r requirements.txt
 </p>
 
 ## Training Results 
-<p align="center">
-  <img src="pics/F1_curve.png?raw=true" width="48%" />
-  <img src="pics/PR_curve.png?raw=true" width="48%" />
-</p>
-
-## Table
 
 | Model | mAp50 (training) | F1 score (training) | Image preprocessing time |Inference time(s) | Total time(s) |
 | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 | MSR-YOLOv8s  | 0.964   | 0.9288   | 0.0218   | 1.256   | 1.277   |
 
 | CLAHE-YOLOv8s   | 0.970   | 0.929   | 0.0185   | 1.165   | 1.183   |
+
+<p align="center">
+  <figure>
+    <img src="pics/F1_curve.png?raw=true" width="48%" />
+    <figcaption>F1 Curve</figcaption>
+  </figure>
+  <figure>
+    <img src="pics/PR_curve.png?raw=true" width="48%" />
+    <figcaption>PR Curve</figcaption>
+  </figure>
+</p>
+
+
 
 
 
