@@ -38,19 +38,12 @@ pip pip install -r requirements.txt
 
 | CLAHE-YOLOv8s   | 0.970   | 0.929   | 0.0185   | 1.165   | 1.183   |
 
+
+
 <p align="center">
-  <figure>
-    <img src="pics/F1_curve.png?raw=true" width="48%" />
-    <figcaption>F1 Curve</figcaption>
-  </figure>
-  <figure>
-    <img src="pics/PR_curve.png?raw=true" width="48%" />
-    <figcaption>PR Curve</figcaption>
-  </figure>
+  <img src="pics/F1_curve.png?raw=true" width="48%" />
+  <img src="pics/PR_curve.png?raw=true" width="48%" />
 </p>
-
-
-
 
 
 ## Test Results 
