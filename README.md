@@ -27,22 +27,22 @@ pip pip install -r requirements.txt
 
 ## Proposed Methodology
 <p align="center" float="middle">
-<img src="pics/algorithm.png?raw=true" width="61.5%" />
+<img src="pics/algorithm.PNG?raw=true" width="61.5%" />
 </p>
 
 ## Training Results 
 <p align="left" float="middle">
-<img src="pics/F1.png?raw=true" width="52.5%" />
-<img src="pics/PR.png?raw=true" width="52.5%" />
+<img src="pics/F1_curve.png?raw=true" width="52.5%" />
+<img src="pics/PR_curve.png?raw=true" width="52.5%" />
 </p>
 
 ## Table
 
 | Model | mAp50 (training) | F1 score (training) | Image preprocessing time |Inference time(s) | Total time(s) |
 | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| MSR-YOLOv8s   |0.964   | 0.9288   | Row 1, Col 4   | Row 1, Col 5   | Row 1, Col 6   |
+| MSR-YOLOv8s  | 0.964   | 0.9288   | 0.0218   | 1.256   | 1.277   |
 
-| Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   | Row 2, Col 4   | Row 2, Col 5   | Row 2, Col 6   |
+| CLAHE-YOLOv8s   | 0.970   | 0.929   | 0.0185   | 1.165   | 1.183   |
 
 
 
