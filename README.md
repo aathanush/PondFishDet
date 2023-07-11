@@ -36,6 +36,16 @@ pip pip install -r requirements.txt
 <img src="pics/PR.png?raw=true" width="52.5%" />
 </p>
 
+## Table
+
+| Model | mAp50 (training) | F1 score (training) | Image preprocessing time |Inference time(s) | Total time(s) |
+| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+| MSR-YOLOv8s   |0.964   | 0.9288   | Row 1, Col 4   | Row 1, Col 5   | Row 1, Col 6   |
+
+| Row 2, Col 1   | Row 2, Col 2   | Row 2, Col 3   | Row 2, Col 4   | Row 2, Col 5   | Row 2, Col 6   |
+
+
+
 ## Test Results 
 <p align="left" float="middle">
 <img src="pics/d2.jpg?raw=true" width="25.5%" />
