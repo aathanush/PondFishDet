@@ -40,8 +40,8 @@ pip pip install -r requirements.txt
 
 
 <p align="center">
-  <img src="pics/F1_curve.png?raw=true" width="48%" />
-  <img src="pics/PR_curve.png?raw=true" width="48%" />
+  <img src="pics/F1_curve.png?raw=true" width="48%" alt="F1 Image" />
+  <img src="pics/PR_curve.png?raw=true" width="48%" alt="PR Image"/>
 </p>
 
 
