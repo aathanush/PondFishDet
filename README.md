@@ -35,7 +35,6 @@ pip pip install -r requirements.txt
 | Model | mAp50 (training) | F1 score (training) | Image preprocessing time |Inference time(s) | Total time(s) |
 | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 | MSR-YOLOv8s  | 0.964   | 0.9288   | 0.0218   | 1.256   | 1.277   |
-
 | CLAHE-YOLOv8s   | 0.970   | 0.929   | 0.0185   | 1.165   | 1.183   |
 
 
