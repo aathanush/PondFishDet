@@ -47,13 +47,13 @@ pip pip install -r requirements.txt
 
 ## Test Results 
 <p align="left" float="middle">
-<img src="pics/d2.jpg?raw=true" width="25.5%" alt="1"/>
-<img src="pics/d2_1.png?raw=true" height="32.5%" width="25.5%" alt="2"/>
+<img src="pics/valP.png?raw=true" width="25.5%" alt="1"/>
+<img src="pics/valR.png?raw=true" height="32.5%" width="25.5%" alt="2"/>
 </p>
 
 <p align="left" float="middle">
-<img src="pics/12_1.jpg?raw=true" width="25.5%" alt="1" />
-<img src="pics/12.jpg?raw=true" height="32.5%" width="25.5%" alt="2"/>
+<img src="pics/valF1.png?raw=true" width="25.5%" alt="1" />
+<img src="pics/valPR.png?raw=true" height="32.5%" width="25.5%" alt="2"/>
 </p>
 
 <p align="left" float="middle">
