@@ -47,19 +47,19 @@ pip pip install -r requirements.txt
 
 ## Test Results 
 <p align="left" float="middle">
-<img src="pics/valP.png?raw=true" width="25.5%" alt="1"/>
-<img src="pics/valR.png?raw=true" height="32.5%" width="25.5%" alt="2"/>
+<img src="pics/f (1).jpegj?raw=true" width="25.5%" alt="1"/>
+<img src="pics/f (2).jpeg?raw=true" height="32.5%" width="25.5%" alt="2"/>
 </p>
 
 <p align="left" float="middle">
-<img src="pics/valF1.png?raw=true" width="25.5%" alt="1" />
-<img src="pics/valPR.png?raw=true" height="32.5%" width="25.5%" alt="2"/>
+<img src="pics/f (3).jpeg?raw=true" width="25.5%" alt="1" />
+<img src="pics/f (4).jpeg?raw=true" height="32.5%" width="25.5%" alt="2"/>
 </p>
 
-<!--<p align="left" float="middle">-->
-<!-- <img src="pics/13_1.jpg?raw=true" width="25.5%" alt="1"/> -->
-<!-- <img src="pics/13.jpg?raw=true" height="32.5%" width="25.5%" alt="2e" /> -->
-<!-- </p> -->
+<p align="left" float="middle">
+<img src="pics/f (5).jpeg?raw=true" width="25.5%" alt="1"/> 
+<img src="pics/f (6).jpeg?raw=true" height="32.5%" width="25.5%" alt="2e" /> 
+</p> 
 
 ## Citation
 ```
