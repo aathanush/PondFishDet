@@ -47,7 +47,7 @@ pip pip install -r requirements.txt
 
 ## Test Results 
 <p align="left" float="middle">
-<img src="pics/f (1).jpegj?raw=true" width="25.5%" alt="1"/>
+<img src="pics/f (1).jpeg?raw=true" width="25.5%" alt="1"/>
 <img src="pics/f (2).jpeg?raw=true" height="32.5%" width="25.5%" alt="2"/>
 </p>
 
