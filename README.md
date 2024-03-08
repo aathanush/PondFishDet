@@ -61,7 +61,7 @@ pip pip install -r requirements.txt
 <img src="pics/f (6).jpeg?raw=true" height="32.5%" width="25.5%" alt="2e" /> 
 </p> 
 
-## Citation
+## References
 ```
 @article{LI2022104759,
 author = {Xinjie Li and Guojia Hou and Kunqian Li and Zhenkuan Pan},
